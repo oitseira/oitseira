@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h1>Four Brothers</h1> 
+
+   <div class="container">
+
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                    <img src="img/thumbs/1.png" alt="Tanboy Kun">
+                    <span>Tanboy Kun</span>
+                </a>
+
+                <div class="overlay" id="gambar-1">
+                    <a href="#" class="close">x</a>
+                    <a href="#gambar-4" class="prev">prev</a>
+                    <img src="img/full/1.png" alt="Tanboy Kun"> 
+                    <a href="#gambar-2" class="next">next</a>               
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-2">
+                    <img src="img/thumbs/2.png" alt="Dylan Pros">
+                    <span>Dylan Pros</span>
+                </a>
+                <div class="overlay" id="gambar-2">
+                    <a href="#" class="close">x</a>
+                    <a href="#gambar-1" class="prev">prev</a>
+                    <img src="img/full/2.png" alt="Dylan Pros">
+                    <a href="#gambar-3" class="next">next</a> 
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-3">
+                    <img src="img/thumbs/3.png" alt="Maling Thumbnail">
+                    <span>Maling Thumbnail</span>
+                </a>
+                <div class="overlay" id="gambar-3">
+                    <a href="#" class="close">x</a>
+                    <a href="#gambar-2" class="prev">prev</a>
+                    <img src="img/full/3.png" alt="Maling Thumbnail">
+                    <a href="#gambar-4" class="next">next</a> 
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-4">
+                    <img src="img/thumbs/4.png" alt="Hasanjr11">
+                    <span>Hasanjr11</span>
+                </a>
+            </li>
+            <div class="overlay" id="gambar-4">
+                <a href="#" class="close">x</a>
+                <a href="#gambar-3" class="prev">prev</a>
+                <img src="img/full/4.png" alt="Hasanjr11"> 
+                <a href="#gambar-1" class="next">next</a>
+            </div>
+            <div class="clear"></div>
+        </ul>
+
+   </div>
+</body>
+</html>
